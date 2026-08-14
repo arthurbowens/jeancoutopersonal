@@ -12,10 +12,9 @@ export class App {
   readonly whatsappUrl =
     'https://wa.me/5541991999230?text=' +
     encodeURIComponent(
-      'Oi Jean! Vi seu site e quero resultado. Quero começar meu treino personalizado.',
+      'Oi Jean! Quero resultado e quero começar meu treino personalizado.',
     );
 
-  readonly phoneDisplay = '41 9 9199-9230';
   readonly year = new Date().getFullYear();
   readonly menuOpen = signal(false);
 
